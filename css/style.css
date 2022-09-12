@@ -57,16 +57,16 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px; /*not supposed to be double spaced*/
-    border-bottom: 2px #ffffff; /*border not correct*/
-    border-left: 5px #ffffff;
+    border-top: 2px #ffffff; /*border not correct*/
+    border-right: 5px #ffffff;
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px; /*border not correct*/
-    border-top: 2px;
+    border-left: 5px; /*border not correct*/
+    border-bottom: 2px;
     color: #C4C4C4; 
 }
 
@@ -74,8 +74,8 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-top: 2px;
+    border-right: 5px;
     color: #707070;
 }
 
@@ -83,8 +83,8 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-left: 5px;
+    border-bottom: 2px;
     /* not supposed to be double-spaced*/
 }
 
