@@ -1,0 +1,99 @@
+body {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Verdana;
+    color: #f0f8ff;
+    background-color: #050505;
+    margin: auto;
+    width: 50%;
+}
+
+
+h1 {
+    background-color: #050505;
+    font-size: 42px;
+    font-weight: lighter;
+    padding: 15px;
+    text-align: center; /*not supposed to be double-space between h1 and img*/
+}
+
+img {
+    border: dashed 10px #ffffff; /*border around nothing box on bottom*/
+    width: 250px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+h2 {
+font-size: 30px;
+color: #0D0D0D;
+
+}
+
+
+
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: solid 3px #ffffff;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px; /*not supposed to be double spaced*/
+    border-bottom: 2px #ffffff; /*border not correct*/
+    border-left: 5px #ffffff;
+}
+
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px; /*border not correct*/
+    border-top: 2px;
+    color: #C4C4C4; 
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    /* not supposed to be double-spaced*/
+}
+
+footer {
+    border: #ffffff 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: right;
+    font: 20px;
+    padding: 15px, 15px, 15px, 0px;
+    /*information not in box*/
+}
