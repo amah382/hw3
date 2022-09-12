@@ -29,7 +29,7 @@ body {
     margin-right: 20px;
     margin-bottom: 0px;
     font-family: Arial, Verdana;
-    color: #f0f8ff;
+    color: #ffffff;
     background-color: #000000;
     margin: auto;
     width: 50%;
@@ -128,9 +128,11 @@ footer {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align: right;
-    font: 20px;
-    padding: 15px, 15px, 15px, 0px;
-    
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
 }
 
 ol, ul {
