@@ -23,6 +23,7 @@ header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+    line-height: 1;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -121,4 +122,20 @@ footer {
     font: 20px;
     padding: 15px, 15px, 15px, 0px;
     
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
